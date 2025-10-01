@@ -59,6 +59,7 @@ class PollReader():
 
             # split up the row by column
             seperated = i.split(',')
+            index
 
             # map each part of the row to the correct column
             self.data_dict['month'].append(seperated[0])
@@ -80,6 +81,7 @@ class PollReader():
             str: A string indicating the candidate with the highest polling percentage or EVEN,
              and the highest polling percentage.
         """
+        politician > 
         pass
 
 
@@ -91,7 +93,7 @@ class PollReader():
             tuple: A tuple containing the average polling percentages for Harris and Trump
                    among likely voters, in that order.
         """
-        
+
         pass
 
 
